@@ -62,4 +62,11 @@ Obviously, in your pom.xml, the repo that should be included is:
         <url>https://maven.pkg.github.com/kixzeit/maven-repo</url>
     </repository>
 </repositories>
+
+<distributionManagement>
+    <repository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/kixzeit/maven-repo</url>
+    </repository>
+</distributionManagement>
 ```
